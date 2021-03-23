@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Sriracha&display=swap');
+
+.contact{
+    text-align: center; 
+    font-family: Sriracha, Arial, Helvetica, sans-serif;  
+}
+.contact-heading{
+    color:darkslategrey;;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+.contact-form{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid darkslategrey;;
+    border-radius: 25%;
+}
+.label{
+    /* margin: 5px;
+    padding: 5px; */
+    color:darkslategrey;;
+    font-weight: bold;
+}
+.title{
+    border: 2px solid darkslategrey;
+    margin: 5px;
+    margin-left: 10px;
+    
+}
+.button{
+    background-color: darkslategrey;;
+    color: white;
+    /* width: 5%; */
+    height: 50%;
+    font-size: 20px;
+    border-radius: 25%;
+    
+}
+
