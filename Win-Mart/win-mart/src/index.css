@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Sriracha&display=swap');
-<<<<<<< HEAD
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
   font-family: Sriracha, Arial, Helvetica, sans-serif;
-  background-color: rgb(182, 29, 29);
+  background-color: darkslategrey
+  ;
   color: white;
 }
 nav {
-  background-color: rgb(97, 71, 211);
-  color: white;
+  background-color: yellow;
+  color: darkslategrey;
+  text-decoration: none;
+
 }
 nav > ul > li {
   display: inline-block;
 }
 li > a {
-  color: white;
+  color: darkslategrey;
 }
 nav > ul {
   list-style-type: none;
@@ -39,38 +41,6 @@ h1,
 h2 {
   text-align: center;
   font-size: 46px;
-=======
-
-body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-header {
-	font-family: Sriracha, Arial, Helvetica, sans-serif;
-	background-color: darkslategrey;
-	color: white;
-  padding-top: 30px;
-}
-
-nav {
-	background-color: yellow;
-	color: darkslategrey;
-  text-decoration: none;
-}
-
-nav > ul > li {
-	display: inline-block;
-}
-
-li > a {
-	color: darkslategrey;
-}
-
-nav > ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: space-around;
->>>>>>> 85869a7921667e4784e18579ae2ba8a43081a5a7
 }
 
 .hero {

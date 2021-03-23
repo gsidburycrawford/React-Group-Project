@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-// About component
-import React, {Component} from 'react';
-
-class ContactUs extends Component {
-    render(){
-      return(
-        <div>
-          <h1>About Us</h1>
-          <p>We here at the Triple-R love fresh URLs, especially ones tied to awesome React Components.</p>
-          <p>It's even better when you can switch between those URLs with ease and share them with friends and family</p>
-=======
 import React, {Component} from 'react';
 import '../css/Contactus.css';
 
@@ -69,7 +57,6 @@ class ContactUs extends Component {
                 <br />               
                 <input className="btn btn-warning button"  type="submit" value="Submit" />
             </form>
->>>>>>> 85869a7921667e4784e18579ae2ba8a43081a5a7
         </div>
       );
     }
