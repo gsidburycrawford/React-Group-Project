@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ShoppingItem from './Note'
+import ShoppingItem from './ShoppingItem'
   class Shopping extends Component {
     constructor() {
       super();
