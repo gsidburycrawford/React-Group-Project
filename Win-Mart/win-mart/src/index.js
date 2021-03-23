@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Routes from './components/Routes';
+import Footer from './components/Footer'
 import reportWebVitals from './reportWebVitals';
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
 
@@ -9,6 +10,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <Routes />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
