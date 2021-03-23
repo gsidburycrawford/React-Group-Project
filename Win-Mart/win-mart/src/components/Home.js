@@ -32,7 +32,7 @@ class Home extends Component {
           <Card.Body>
             <Card.Title>Furniture</Card.Title>
             <Card.Text>
-             Make home your happy place. Shop from our wide variety of antique furniture.{" "}
+             Make home your happy place. Shop our wide variety of antique furniture.{" "}
              <br></br>
             </Card.Text>
           </Card.Body>

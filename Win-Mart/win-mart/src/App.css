@@ -33,18 +33,19 @@
     padding-left: 70px;
     padding-right: 70px;
     color:darkslategrey;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: bolder;
     text-align: center;
     
+  
    }
    .heading{
     font-weight:bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+    /* font-style: italic; */
     color:darkslategrey;
     text-align: center;
-    
+   
   }
 footer {
   position:relative;

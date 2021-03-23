@@ -89,7 +89,6 @@ import ShoppingItem from './Note'
             </div>
           </div>
           <div>
-
           </div>
         </div>
       );

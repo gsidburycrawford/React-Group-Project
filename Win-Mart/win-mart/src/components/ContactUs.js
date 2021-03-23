@@ -56,6 +56,8 @@ class ContactUs extends Component {
                 <br /> 
                 <br />               
                 <input className="btn btn-warning button"  type="submit" value="Submit" />
+                <br />
+                {/* <br /> */}
             </form>
         </div>
       );

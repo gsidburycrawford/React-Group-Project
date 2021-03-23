@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Sriracha&display=swap');
+
 
 .contact{
     text-align: center; 
-    font-family: Sriracha, Arial, Helvetica, sans-serif;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;  
 }
 .contact-heading{
     color:darkslategrey;;
 }
 *, *:before, *:after {
-    box-sizing: border-box;
+    box-sizing:border-box;
   }
 .contact-form{
     margin: 5px;
@@ -17,8 +18,7 @@
     border-radius: 25%;
 }
 .label{
-    /* margin: 5px;
-    padding: 5px; */
+    
     color:darkslategrey;;
     font-weight: bold;
 }
@@ -31,7 +31,7 @@
 .button{
     background-color: darkslategrey;;
     color: white;
-    /* width: 5%; */
+   
     height: 50%;
     font-size: 20px;
     border-radius: 25%;

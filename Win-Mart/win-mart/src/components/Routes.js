@@ -6,8 +6,8 @@ import React, {Component} from 'react';
 import '../index.css';
 import {
     BrowserRouter as Router, // we are aliasing this module for a cleaner call
-    Route,
-    Link
+    Route
+    
     // etc.
   } from 'react-router-dom';
 
@@ -16,8 +16,7 @@ class Routes extends Component {
       return(
         <Router>
           <div>
-            <Navbar />
-            <hr />
+            <Navbar />           
             <Route name="Home" exact path="/" component={Home}/>
             <Route name="Shopping" path="/Shopping" component={Shopping}/>
             <Route name="Contact Us" path="/ContactUs" component={ContactUs} />
