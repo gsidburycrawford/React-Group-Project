@@ -3,6 +3,7 @@ import Home from './Home';
 import ContactUs from './ContactUs';
 import Shopping from './Shopping';
 import React, {Component} from 'react';
+import '../index.css';
 import {
     BrowserRouter as Router, // we are aliasing this module for a cleaner call
     Route,
