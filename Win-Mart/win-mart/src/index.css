@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Sriracha&display=swap');
+
 
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-	font-family: Sriracha, Arial, Helvetica, sans-serif;
+	
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background-color: darkslategrey;
 	color: white;
   padding-top: 30px;
@@ -15,6 +16,7 @@ nav {
 	background-color: yellow;
 	color: darkslategrey;
   text-decoration: none;
+  font-size: 20px;
 }
 
 nav > ul > li {

@@ -1,23 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Sriracha&display=swap');
+
 
 
   footer {
     position:relative;
     bottom: 0;
-    width: 100%;
-    /* background-color:rgb(182, 29, 29); */
+    width: 100%;    
     background-color: darkslategrey;
     color:#fff;
-    font-family: Sriracha, Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
   }
-  /* .nav {
-    position:relative;
-    bottom: 0;
-    width: 100%;
-    background-color:darkslategrey;
-    color:#fff;
-  } */
+  
   .div-board {
     margin: 1rem 15px 0;
     border: solid #F7F7F9
@@ -70,18 +63,19 @@
     padding-left: 70px;
     padding-right: 70px;
     color:darkslategrey;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: bolder;
     text-align: center;
     
+  
    }
    .heading{
     font-weight:bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+    /* font-style: italic; */
     color:darkslategrey;
     text-align: center;
-    
+   
   }
   .para{
     font-style: italic;
@@ -91,3 +85,33 @@
     text-align: center;
     
   }
+  .img{
+    width:50%;
+    height: 80%;
+  }
+  .item{
+      border: 2px solid darkslategrey;
+      width: 100%;
+  }
+  
+  .rest-logo {
+	height:auto;
+	width:100%;
+    
+    
+}
+.card-body {
+	color: black;   
+	border-style:groove;
+	text-align: center;    
+    background-color:rgb(190, 189, 189);    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.department{
+    font-size: 24px;
+    font-weight: bold;
+}
+.title{
+    font-size: 17px;
+}
