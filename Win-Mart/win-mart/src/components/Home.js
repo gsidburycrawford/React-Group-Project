@@ -39,6 +39,15 @@ class Home extends Component {
             </Card.Text>
           </Card.Body>
         </Card>
+        <Card>
+        <Card.Img variant="top" src="https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdGhpbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+        <Card.Body>
+          <Card.Title>Apparel</Card.Title>
+          <Card.Text>
+          Get ready for the Spring ahead with all our softest tones and colors{" "}
+          </Card.Text>
+        </Card.Body>
+      </Card>
       </CardColumns>
       </div>
   );
