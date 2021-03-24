@@ -11,7 +11,7 @@ class ShoppingItem extends Component {
   render() {
     const { showing } = this.state;
     return (    
-          <div className='col-4 card space'>
+          <div className='col-4 card'  style={{backgroundColor: 'darkslategray'}} style={{padding: '20px'}}>
                   <img
                       src={this.props.itemImg}
                       className='card-img-top rest-logo'
@@ -27,6 +27,7 @@ class ShoppingItem extends Component {
                       }
                       <p className='price'>Price: {this.props.price}</p>                
                   </div>
+                  
               </div>
     );
   }

@@ -38,7 +38,7 @@ class ContactUs extends Component {
       return (
         <div className="contact">
             <h1 className="contact-heading">Contact Us</h1>
-            <form className="contact-form" onSubmit={this.handleSubmit}>
+            <form className="contact-form outer-box-frame" onSubmit={this.handleSubmit}>
                 <label className="label">
                 Name:
                 <input className="title" ref={this.nameContent} type="text" name="name" value={this.state.name} onChange={this.handleChange} />
@@ -56,7 +56,7 @@ class ContactUs extends Component {
                 <br /> 
                 <br />               
                 <input className="btn btn-warning button"  type="submit" value="Submit" />
-                <br />
+                
                 {/* <br /> */}
             </form>
         </div>
