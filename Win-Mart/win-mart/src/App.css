@@ -106,10 +106,17 @@ width:100%;
   font-size: 17px;
 }
 
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  
+}
+
 .social-media .icons-wrapper{
   width:20%;
   display: flex;
-  
+  align-items: center;
   justify-content: space-between;
  
   margin-left: 80px;
