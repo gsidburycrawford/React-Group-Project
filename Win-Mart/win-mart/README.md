@@ -1,3 +1,6 @@
+This website was developed by Chris Thao, Damini Patel, Geterry Sidbury-Crawford, Lee Denis, and Sravanthi Rajavaram.
+# Special thanks to everyone who made WIN possible, as well as Cohort 3.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
