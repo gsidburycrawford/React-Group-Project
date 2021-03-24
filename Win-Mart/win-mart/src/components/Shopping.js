@@ -42,9 +42,9 @@ import ShoppingItem from './ShoppingItem'
   }
     render() {
       return (
-        <div>
-          <div className="div-board">
-            <div className="row">
+        <div style={{padding: '20px'}}>
+          <div className="div-board" >
+            <div className="row" >
             {
             this.state.ShoppingItems.map(item => {
                 return <ShoppingItem department={item.department} title={item.title}/>

@@ -14,7 +14,7 @@ class Navbar extends Component {
         
         <div>
                 <header>
-                <img src={ Logo } className="d-block mx-auto img-fluid " />
+                <img src={ Logo } className="d-block mx-auto img-fluid logo" />
                     <p className='hero'>Convenient Shopping with us</p>
                     
                     <nav id='nav'>
