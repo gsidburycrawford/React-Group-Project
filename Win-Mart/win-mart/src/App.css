@@ -104,7 +104,8 @@
 	color: black;   
 	border-style:groove;
 	text-align: center;    
-    background-color:rgb(190, 189, 189);    
+    /* background-color:rgb(190, 189, 189);     */
+    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
