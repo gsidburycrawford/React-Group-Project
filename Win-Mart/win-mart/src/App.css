@@ -6,7 +6,7 @@
     bottom: 0;
     width: 100%;    
     background-color: darkslategrey;
-    color:#fff;
+    color:yellow;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
   }
@@ -64,7 +64,7 @@
     padding-right: 70px;
     color:darkslategrey;
     /* font-style: italic; */
-    font-weight: bolder;
+    /* font-weight: bolder; */
     text-align: center;
     
   
@@ -104,8 +104,8 @@
 	color: black;   
 	border-style:groove;
 	text-align: center;    
-    /* background-color:rgb(190, 189, 189);     */
-    background-color: white;
+    background-color:rgb(216, 216, 216);    
+    /* background-color: white; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -116,3 +116,13 @@
 .title{
     font-size: 17px;
 }
+
+.social-media .icons-wrapper{
+  width:20%;
+  display: flex;
+  
+  justify-content: space-between;
+ 
+  margin-left: 80px;
+}
+
