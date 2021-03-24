@@ -2,11 +2,13 @@ import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, CardColumns } from "react-bootstrap";
 import '../App.css';
+
 class Home extends Component {
     render(){
       return(
         <div>
-          <h4 className="heading">WinMart</h4>
+          {/* <h4 className="heading">WinMart</h4> */}
+          
           <p className="para">Shop online for everything from clothing to electronics</p>
         <CardColumns className="display">
         <Card>

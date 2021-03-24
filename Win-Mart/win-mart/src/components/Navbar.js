@@ -5,6 +5,11 @@ import {
     // etc.
   } from 'react-router-dom';
 import React, {Component} from 'react';
+<<<<<<< HEAD
+=======
+import Logo from '../images/logo3.png';
+import '../App.css';
+>>>>>>> 82dd031225548ca8c730b953707a4eaeed89fe60
 
 class Navbar extends Component {
     render(){
@@ -12,7 +17,7 @@ class Navbar extends Component {
         
         <div>
                 <header>
-                    <h1>WinMart</h1>
+                <img src={ Logo } className="d-block mx-auto img-fluid " />
                     <p className='hero'>Convenient Shopping with us</p>
                     
                     <nav id='nav'>
