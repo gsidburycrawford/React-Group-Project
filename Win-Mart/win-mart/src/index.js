@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Routes from './components/Routes';
+import Footer from './components/Footer'
 import reportWebVitals from './reportWebVitals';
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routes />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
