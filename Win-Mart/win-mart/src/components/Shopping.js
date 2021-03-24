@@ -45,11 +45,11 @@ import ShoppingItem from './ShoppingItem'
         <div style={{padding: '20px'}}>
           <div className="div-board" >
             <div className="row" >
-            {
-            this.state.ShoppingItems.map(item => {
-                return <ShoppingItem department={item.department} title={item.title}/>
-              })
-          }
+                {
+                this.state.ShoppingItems.map(item => {
+                    return <ShoppingItem department={item.department} title={item.title}/>
+                  })
+              }
               <ShoppingItem
               itemImg = "https://ss7.vzw.com/is/image/VerizonWireless/jbl-charge-4inch-black-jblcharge4blkam-a?fmt=pjpg&hei=520" 
               department ="Electronics" 
@@ -88,8 +88,7 @@ import ShoppingItem from './ShoppingItem'
               price = "$65.00"/>
             </div>
           </div>
-          <div>
-          </div>
+          
         </div>
       );
     }

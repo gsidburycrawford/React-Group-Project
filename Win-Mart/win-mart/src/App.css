@@ -39,10 +39,29 @@ footer {
     font-size: 18px;  
     
 }
-.text1{
-    margin-left: 40px;
-    text-align: left;
-    padding-left: 20px;
+
+.div-board {
+  /* margin: 1rem 15px 0; */
+  /* border: solid #F7F7F9 */
+  align-content: center;
+  margin-left: 100px;
+}
+.add {
+  margin: 1rem 15px 0;
+}
+/* .div-board {
+  margin: 1rem 15px 0;
+  border: solid #F7F7F9
+} */
+.add {
+  margin: 1rem 15px 0;
+}
+.card-view {
+  margin: 8px 0;
+}
+.contact-footer{
+  text-align: left;
+  padding-left: 20px;
 }
 
 .text2{
@@ -55,13 +74,28 @@ footer {
     padding-bottom: 20px;
     font-size: 18px;
 }
- .heading{
+.display{
+  /* padding-top: 10px; */
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  color:darkslategrey;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+  .heading{
   font-weight:bold;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   /* font-style: italic; */
   color:darkslategrey;
   text-align: center;
- 
+  
 }
 .para{
   font-style: italic;
@@ -79,13 +113,8 @@ footer {
     border: 2px solid darkslategrey;
     width: 100%;
 }
+  
 
-.rest-logo {
-height:auto;
-width:100%;
-  
-  
-}
 .card-body {
 color: black;   
 border-style:groove;
@@ -108,6 +137,7 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 60px;
 }
 .display{
   /* padding-top: 10px; */
@@ -124,7 +154,6 @@ text-align: center;
   padding-top: 20px;
   padding-bottom: 40px;
 }
-
-.space {
+.space{
   margin-left: 15px;
 }

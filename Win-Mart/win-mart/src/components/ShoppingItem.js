@@ -11,7 +11,7 @@ class ShoppingItem extends Component {
   render() {
     const { showing } = this.state;
     return (    
-          <div className='col-4 card'  style={{backgroundColor: 'darkslategray'}} style={{padding: '20px'}}>
+          <div className='col-3 card' style={{backgroundColor: 'darkslategray'}} style={{padding: '30px'}}  >
                   <img
                       src={this.props.itemImg}
                       className='card-img-top rest-logo'
